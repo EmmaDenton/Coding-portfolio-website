@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FAF9F9;
+    color: #003454;
+}
+
+header {
+    background-image: url("../images/Hero.png");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+#pageheader {
+    display: flex;
+    align-items: center;
+    color: #003454;
+}
+
+#pagetitle {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #EDE8EA;
+    padding:  15px;
+    padding:  15px 3% 15px 7%;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex:  1;
+    margin-right: 5%;
+    text-decoration: underline 3px;
+}
+
+#navlinks {
+    padding: 10px;
+    color: #003454;
+}
+
+#subtitle {
+    display: flex;
+    color: #003454;
+    justify-content: right;
+    align-items: center;
+    margin-top: 20px;
+    position: right;
+    padding:  15px 5% 15px 3%;
+    background-color: #EDE8EA;
+}
+
+#aboutme {
+    display: flex;
+    margin-top: 50px;
+    color: #003454;
+}
+
+.aboutmetitle {
+    margin-right: 20px;
+    margin-left: 10%;
+    margin-top: 15px;
+}
+
+.aboutmetitle h2 {  
+    display: flex;
+    justify-content: flex-end;
+    margin: -2px;
+}
+
+.aboutmeparagraphs {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 10%;
+    border-left: 3px solid #003454;
+    padding-left: 25px;
+}
+
+text {
+    padding: 10px;
+}
+
+#contactMe {
+    display: flex;
+    margin-top: 50px;
+}
+
+.contactmetitle {
+    margin: 20px;
+    margin-left: 10%;
+}
+
+.contactmetitle h2 {
+    display: flex;
+    justify-content: flex-end;
+    margin: -2px;
+}
+
+.contactmeitems {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex:  1;
+    margin-right: 5%;
+    text-decoration: underline 3px;
+    border-left: 3px solid #003454;
+}
+
+
+#worktitle {
+    margin-right: 20px;
+    margin-left: 10%;
+    margin-top: 15px;
+}
+
+div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+
+}
+
+label {
+    background-color: #009ACC;
+    display: block;
+    padding: 20px 30px 20px 30px;
+    align-items: left;
+    position: absolute;
+}
+
+img {
+    background-color: #009ACC;
+    padding: 5px;
+    justify-content: center;
+}
+
+h4,p {
+    padding: 0;
+    margin: 0;
+}
+
+article {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 20px;
+}
+
+#primarycard {
+    width: 1100px
+}
+
+.card {
+    width: 500px;
+    height: 250px;
+
+}
+
+.workheading {
+    display: flex;
+}
